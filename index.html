@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecosystem Protection Website</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 1em;
+        }
+    
+        nav a {
+            margin: 0 1em;
+            padding: 1em;
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            transition: color 0.3s;
+            border: 2px solid white;
+            border-radius: 8px;
+        }
+    
+        nav a:hover {
+            color: #FFD700;
+            background-color: #25b31e;
+        }
+        
+
+    </style>
+    
+        <!-- Other head elements -->
+    
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/JgcLe5i6UqOK1GiKgNJgYjF5Fa" crossorigin="anonymous">
+    
+    
+</head>
+<body style="font-family: 'Arial', sans-serif; background-color: #f5f5f5; color: #333; margin: 0; padding: 0; box-sizing: border-box;">
+
+    
+    <header style="background-color: #7a571b; padding: 1em 0; text-align: center; color: white;">
+        <h1 style="font-size: 2.5em; margin-bottom: 0.5em;">Ecosystem protection Hub</h1>
+        <p style="font-size: 1.2em;">Your Gateway to a Sustainable Future</p><hr>
+        
+        <nav>
+            <a href="#home"><i class="fas fa-home"></i> Home</a>
+            <a href="#about"><i class="fas fa-info-circle"></i> About Us</a>
+            <a href="#environmental-issues"><i class="fas fa-leaf"></i> Environmental Issues</a>
+            <a href="#ecosystem-solutions"><i class="fas fa-tree"></i> Ecosystem Solutions</a>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+        </nav>
+        
+    </header>
+    <script>
+        // JavaScript for interactive header
+        const header = document.querySelector('header');
+        const navLinks = document.querySelectorAll('nav a');
+    
+        // Change background color on mouseover
+        header.addEventListener('mouseover', function() {
+            this.style.backgroundColor = '#3E4095';
+        });
+    
+        // Change background color back on mouseout
+        header.addEventListener('mouseout', function() {
+            this.style.backgroundColor = '#1E90FF';
+        });
+    
+        // Change text color on nav link hover
+        navLinks.forEach(link => {
+            link.addEventListener('mouseover', function() {
+                this.style.color = '#FFD700';
+            });
+    
+            link.addEventListener('mouseout', function() {
+                this.style.color = 'white';
+            });
+        });
+    </script>
+    
+    
+    
+
+    <section id="home" style="padding: 2em; text-align: center;">
+        <div style="background-color: #2E8B57; padding: 2em; color: white; border-radius: 10px;">
+            <h2 style="font-size: 2.5em;">Welcome to Ecosystem Protection Hub</h2>
+            <p style="font-size: 1.2em;">Explore sustainable solutions to protect our diverse ecosystems.</p>
+            <a href="#solutions" style="display: inline-block; padding: 10px 20px; background-color: #FFD700; color: #2E8B57; text-decoration: none; font-weight: bold; border-radius: 5px;">Explore Solutions</a>
+        </div>
+    </section>
+
+    <section id="about" style="padding: 2em;">
+        <h2 style="font-size: 2em; text-align: center;">About Us</h2>
+        <p style="font-size: 1.2em; text-align: center;">Ecosystem Protection Hub is dedicated to preserving the delicate balance of nature. Our mission is to raise awareness, advocate sustainable practices, and empower communities to become stewards of the environment. Through education and action, we strive to ensure the well-being of ecosystems for current and future generations.</p>
+    </section>
+    <!-- Add the Sustainable Development section below -->
+    <section id="sustainable-development" style="padding: 2em; background-color: #2E8B57; color: white; text-align: center;">
+        <h2 style="font-size: 2.5em; margin-bottom: 1em; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Sustainable Development</h2>
+        <p style="font-size: 1.2em; line-height: 1.5; letter-spacing: 1px;">Join us in the journey towards a sustainable future. Our initiatives not only protect the environment but also promote social equity and economic well-being. By fostering sustainable practices, we contribute to a harmonious coexistence between humanity and nature. Be part of the change—let's build a future where development meets the needs of the present without compromising the ability of future generations to meet their own needs.</p>
+        <a href="#contact" style="display: inline-block; margin-top: 1em; padding: 10px 20px; background-color: #FFD700; color: #2E8B57; text-decoration: none; font-weight: bold; border-radius: 5px; transition: background-color 0.3s ease-in-out;">Get Involved</a>
+    </section>
+    <!-- ... (previous content) -->
+
+<section id="environmental-issues" style="padding: 2em; background-color: #fff;">
+    <h2 style="font-size: 2em; text-align: center;">Environmental Issues</h2>
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+        <div style="background-color: #FF6347; padding: 1.5em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+            <h3 style="font-size: 1.5em; margin-bottom: 0.5em; color: white;">Global Warming</h3>
+            <p style="font-size: 1.2em; color: white;">Global warming is the long-term heating of Earth's climate system. It is primarily caused by the increase of greenhouse gases, such as carbon dioxide, in the atmosphere. Join us in reducing carbon footprints and promoting sustainable energy solutions.</p>
+        </div>
+
+        <div style="background-color: #1E90FF; padding: 1.5em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+            <h3 style="font-size: 1.5em; margin-bottom: 0.5em; color: white;">Pollution</h3>
+            <p style="font-size: 1.2em; color: white;">Pollution poses a significant threat to ecosystems and human health. We work towards reducing air, water, and soil pollution through awareness campaigns and advocating for sustainable practices. Be part of the clean-up solution!</p>
+        </div>
+
+        <div style="background-color: #8FBC8F; padding: 1.5em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+            <h3 style="font-size: 1.5em; margin-bottom: 0.5em; color: white;">Biodiversity Loss</h3>
+            <p style="font-size: 1.2em; color: white;">Biodiversity loss is the decline in the variety of life on Earth. It affects ecosystems' resilience and our ability to adapt to environmental changes. Join us in preserving and restoring biodiversity through conservation efforts and sustainable land use.</p>
+        </div>
+    </div>
+    <div style="background-color: #FFD700; padding: 1.5em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+        <h3 style="font-size: 1.5em; margin-bottom: 0.5em; color: white;">Deforestation</h3>
+        <p style="font-size: 1.2em; color: white;">Deforestation contributes to the loss of vital ecosystems and habitats, impacting biodiversity and climate. Join us in supporting reforestation projects and sustainable forestry practices to combat deforestation.</p>
+    </div>
+    
+    <div style="background-color: #FF4500; padding: 1.5em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+        <h3 style="font-size: 1.5em; margin-bottom: 0.5em; color: white;">Ocean Pollution</h3>
+        <p style="font-size: 1.2em; color: white;">Ocean pollution, including plastic waste and chemical runoff, harms marine life and ecosystems. Join us in promoting ocean conservation and responsible waste disposal to protect our oceans.</p>
+    </div>
+    <div style="background-color: #9932CC; padding: 1.5em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+        <h3 style="font-size: 1.5em; margin-bottom: 0.5em; color: white;">Air Quality</h3>
+        <p style="font-size: 1.2em; color: white;">Poor air quality, caused by pollutants and emissions, has severe health and environmental impacts. Join us in advocating for clean air policies and adopting sustainable practices to improve air quality.</p>
+    </div>
+    
+    <div style="background-color: #FF1493; padding: 1.5em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+        <h3 style="font-size: 1.5em; margin-bottom: 0.5em; color: white;">Loss of Wetlands</h3>
+        <p style="font-size: 1.2em; color: white;">Wetlands play a crucial role in biodiversity, flood control, and water purification. Join us in preserving and restoring wetlands to safeguard these vital ecosystems.</p>
+    </div>
+    
+</section>
+
+<!-- ... (remaining content) -->
+
+    <section id="solutions" style="padding: 2em; background-color: #fff;">
+        <h2 style="font-size: 2em; text-align: center;">Environmental Solutions</h2>
+        
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+            <div style="background-color: #87CEEB; padding: 1em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+                <img src="recycle-symbol.png" alt="Recycle Icon" style="width: 80px; height: 80px; margin-bottom: 1em;">
+                <h3 style="font-size: 1.5em; margin-bottom: 0.5em;">Recycling Initiatives</h3>
+                <p style="font-size: 1.2em;">Join us in promoting recycling programs to reduce waste and conserve resources.</p>
+            </div>
+
+            <div style="background-color: #98FB98; padding: 1em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+                <img src="tree.png" alt="Tree Icon" style="width: 80px; height: 80px; margin-bottom: 1em;">
+                <h3 style="font-size: 1.5em; margin-bottom: 0.5em;">Tree Planting Campaigns</h3>
+                <p style="font-size: 1.2em;">Participate in our tree planting events to combat deforestation and enhance biodiversity.</p>
+            </div>
+
+            <!-- Add more solution cards as needed -->
+        </div>
+        <div style="background-color: #32CD32; padding: 1.5em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+            <img src="renewable-energy.png" alt="Clean Energy Icon" style="width: 80px; height: 80px; margin-bottom: 1em;">
+            <h3 style="font-size: 1.5em; margin-bottom: 0.5em; color: white;">Clean Energy Adoption</h3>
+            <p style="font-size: 1.2em; color: white;">Support clean energy initiatives to reduce carbon emissions and transition towards a sustainable and eco-friendly energy future.</p>
+        </div>
+
+        <div style="background-color: #FF8C00; padding: 1.5em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+            <img src="eco-house.png" alt="Urban Green Space Icon" style="width: 80px; height: 80px; margin-bottom: 1em;">
+            <h3 style="font-size: 1.5em; margin-bottom: 0.5em; color: white;">Urban Green Spaces</h3>
+            <p style="font-size: 1.2em; color: white;">Promote the creation and maintenance of urban green spaces to enhance biodiversity, provide habitats, and improve the overall well-being of communities.</p>
+        </div>
+    </section>
+
+    <section id="events" style="padding: 2em;">
+        <h2 style="font-size: 2em; text-align: center;">Upcoming Events</h2>
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+            <div style="background-color: #FFD700; padding: 1em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+                <h3 style="font-size: 1.5em; margin-bottom: 0.5em;">Nature Clean-up Day</h3>
+                <p style="font-size: 1.2em;">Join our community for a day of cleaning and restoring local natural habitats. Let's make a positive impact together!</p>
+                <p style="font-size: 1em; color: #333;">Date: June 15, 2024</p>
+            </div>
+
+            <div style="background-color: #FF6347; padding: 1em; margin: 1em; text-align: center; border-radius: 8px; flex: 1; min-width: 300px;">
+                <h3 style="font-size: 1.5em; margin-bottom: 0.5em;">Green Innovation Expo</h3>
+                <p style="font-size: 1.2em;">Explore the latest eco-friendly technologies and innovations at our Green Innovation Expo. Learn and be inspired!</p>
+                <p style="font-size: 1em; color: #333;">Date: July 20, 2024</p>
+            </div>
+
+            <!-- Add more event cards as needed -->
+        </div>
+    </section>
+
+    <section id="contact" style="padding: 2em;">
+        <h2 style="font-size
+<!-- ... (previous content) -->
+
+<section id="contact" style="padding: 2em;">
+    <h2 style="font-size: 2em; text-align: center;">Contact Us</h2>
+    <p style="font-size: 1.2em; text-align: center;">Have questions or want to collaborate? Reach out to us!</p>
+    <div style="max-width: 400px; margin: 0 auto;">
+        <form action="#" method="post" style="background-color: #fff; padding: 1.5em; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+            <label for="name" style="display: block; font-size: 1.2em; margin-bottom: 0.5em;">Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 5px;">
+
+            <label for="email" style="display: block; font-size: 1.2em; margin-bottom: 0.5em;">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 5px;">
+
+            <button type="submit" style="background-color: #4CAF50; color: white; padding: 0.7em; border: none; border-radius: 5px; cursor: pointer;">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- ... (previous content) -->
+
+ 
+<footer style= color: white; text-align: center; padding: 1em; position: fixed; bottom: 0; width: 100%;">
+    <p style="font-size: 0.8em;">&copy; 2023 Ecosystem Protection Hub. All Rights Reserved.</p>
+    <p style="font-size: 0.8em;">Email: info@ecosystemprotectionhub.com</p>
+    <p style="font-size: 0.7em;">Website created by [kanhiya singh]</p>
+</footer>
+<footer style="background-color: #1E90FF; color: white; text-align: center; padding: 1em;">
+    <p style="margin: 0;">Website created by <span style="font-weight: bold; color: #FFD700;">kanhiya singh</span></p>
+</footer>
+
+<footer style="background-color: #1E90FF; color: white; text-align: center; padding: 1em;">
+    <p style="margin: 0;">Follow us on social media:</p>
+    <div style="margin-top: 0.5em;">
+        <a href="https://www.instagram.com/corrupt_egnr/" target="_blank" style="text-decoration: none; color: #FFD700; margin: 0 0.5em;"><img src="instagram.png" alt="Instagram Icon" style="width: 30px; height: 30px; margin-right: 5px;"> Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank" style="text-decoration: none; color: #FFD700; margin: 0 0.5em;"><img src="icons8-facebook-48.png" alt="Facebook Icon" style="width: 30px; height: 30px; margin-right: 5px;"> Facebook</a>
+        <a href="https://twitter.com/" target="_blank" style="text-decoration: none; color: #FFD700; margin: 0 0.5em;"><img src="twitter.png" alt="Twitter Icon" style="width: 30px; height: 30px; margin-right: 5px;"> Twitter</a>
+        <!-- Add more social media icons and links as needed -->
+    </div>
+</footer>
+
+
+
+
+
+
+<!-- ... (closing tags) -->
+
+</body>
+</html>
